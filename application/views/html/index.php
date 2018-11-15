@@ -146,7 +146,13 @@
             </div>
         </section><!-- #about -->
         <?php } ?>
-
+ <section id="call-to-action" class="wow fadeIn">
+            <div class="container text-center">
+                <h3>Call To Action</h3>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="cta-btn" href="#contact">Call To Action</a>
+            </div>
+        </section>
         
         <?php if(isset($testimonials_details) && count($testimonials_details)>0){ ?>
         <section id="testimonials" class="section-header wow fadeInUp">
@@ -158,7 +164,7 @@
 
                 <div class="owl-carousel testimonials-carousel">
                     <?php foreach($testimonials_details as $list){ ?>
-                    <input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">
+                  
 
                     <div class="testimonial-item">
                         <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
