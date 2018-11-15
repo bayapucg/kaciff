@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .logo-header img{
-	width:auto;height:40px;
+	width:auto;height:80px;
 }
 
 /* Back to top button */
@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
+	    margin-top: -23px;
   }
 }
 
