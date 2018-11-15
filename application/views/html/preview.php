@@ -182,68 +182,6 @@
             </section><!-- #about -->
             <?php } ?>
 
-            <!--==========================
-      Services Section
-    ============================-->
-            <?php if(isset($services_details) && count($services_details)>0){ ?>
-<!--
-            <section id="services">
-                <div class="container">
-                    <input type="hidden" name="services_id" id="services_id" value="<?php echo isset($services_details['s_id'])?$services_details['s_id']:''; ?>">
-
-                    <header class="section-header wow fadeInUp">
-                        <h3>Services</h3>
-                        <p>
-                            <?php echo isset($services_details['paragraph'])?$services_details['paragraph']:''; ?>.</p>
-                    </header>
-
-                    <div class="row">
-
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title1'])?$services_details['title1']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph1'])?$services_details['paragraph1']:''; ?>.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title2'])?$services_details['title2']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph2'])?$services_details['paragraph2']:''; ?>.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title3'])?$services_details['title1']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph3'])?$services_details['paragraph3']:''; ?>.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title4'])?$services_details['title4']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph4'])?$services_details['paragraph4']:''; ?>.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title5'])?$services_details['title5']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph5'])?$services_details['paragraph5']:''; ?>.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                            <h4 class="title"><a href="">
-                                    <?php echo isset($services_details['title6'])?$services_details['title6']:''; ?></a></h4>
-                            <p>
-                                <?php echo isset($services_details['paragraph6'])?$services_details['paragraph6']:''; ?>.</p>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
--->
-            <!-- #services -->
-
-            <?php } ?>
 
             <!--==========================
       Call To Action Section
