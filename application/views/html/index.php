@@ -149,7 +149,7 @@
  <section id="call-to-action" class="wow fadeIn">
             <div class="container text-center">
                 <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> We are happy to serve you. Please reach out to us below.</p>
                 <a class="cta-btn" href="#contact">Call To Action</a>
             </div>
         </section>
@@ -167,7 +167,7 @@
                   
 
                     <div class="testimonial-item">
-                        <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
+                        <img src="<?php echo base_url(); ?>assets/logo/testimonial-user-img.png" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
                         <h3>
                             <?php echo isset($list['name'])?$list['name']:''; ?>
                         </h3>
@@ -229,7 +229,7 @@
 
                 <div class="section-header">
                     <h3>Contact Us</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                    <p>We are happy to serve you. Please reach out to us below.</p>
                 </div>
 
                 <div class="row contact-info">
@@ -338,7 +338,7 @@
                         </p>
 
                         <div class="social-links">
-                            <a href="<?php echo isset($contactus_details['twitter_link'])?$contactus_details['twitter_link']:'#'; ?>" target="_balnk" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="<?php echo isset($contactus_details['twitter_link'])?$contactus_details['twitter_link']:'#'; ?>" target="_balnk" class="twitter"><i class="fa fa-youtube"></i></a>
                             <a href="<?php echo isset($contactus_details['facebook_link'])?$contactus_details['facebook_link']:'#'; ?>" target="_balnk" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="<?php echo isset($contactus_details['instagram_link'])?$contactus_details['instagram_link']:'#'; ?>" target="_balnk" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="<?php echo isset($contactus_details['google_plus'])?$contactus_details['google_plus']:'#'; ?>" target="_balnk" class="google-plus"><i class="fa fa-google-plus"></i></a>
