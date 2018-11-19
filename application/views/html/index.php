@@ -167,7 +167,7 @@
                   
 
                     <div class="testimonial-item">
-                        <img src="<?php echo base_url(); ?>assets/logo/testimonial-user-img.png" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
+                         <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
                         <h3>
                             <?php echo isset($list['name'])?$list['name']:''; ?>
                         </h3>
